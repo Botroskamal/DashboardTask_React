@@ -1,0 +1,17 @@
+.menuBody{
+    display: flex;
+    flex-direction: column;
+    row-gap: 70px;
+}
+
+@media (max-width: 900px) {
+    .menuBody{
+        row-gap: 760px;
+    }
+}
+
+@media (max-width: 380px) {
+    .menuBody{
+        row-gap: 1300px;
+    }
+}

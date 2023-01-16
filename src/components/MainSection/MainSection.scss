@@ -1,0 +1,93 @@
+.dashboard-main-section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    background-color: #F5F5F5;
+    height: 85%;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    
+    .specs-section{
+        display: flex;
+        justify-content: space-around;
+        height: 250px;
+    }
+    .stats-section{
+        display: flex;
+        justify-content: space-around;
+        height: 330px;
+    }
+    .cars-type-cards{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.booking-main-section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    background-color: #F5F5F5;
+    height: 85%;
+    padding: 24px;
+    .head-section{
+        span{
+            font-family: sans-serif;
+            font-weight: 700;
+        }
+    }
+    .car-cards-section{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+        column-gap: 24px;
+        row-gap: 24px;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .dashboard-main-section{
+        height: 1200px;
+
+        .specs-section{
+            height: 34%;
+            flex-wrap: wrap;
+            row-gap: 15px;
+        }
+        .cars-type-cards{
+            flex-wrap: wrap;
+            row-gap: 15px;
+        }
+    }
+    .booking-main-section{
+        height: 1200px;
+    }
+}
+
+@media (max-width: 380px) {
+    .dashboard-main-section{
+        height: 1675px;
+        row-gap: 10px;
+        padding-bottom: 5px;
+
+        .specs-section{
+            height: 28%;
+            row-gap: 20px;
+            flex-wrap: wrap;
+        }
+        .stats-section{
+            height: 33%;
+            flex-wrap: wrap;
+            row-gap: 20px;
+        }
+        .cars-type-cards {
+            flex-wrap: wrap;
+        }
+    }
+
+    .booking-main-section{
+        height: 1675px;
+        row-gap: 10px;
+        padding-bottom: 5px;
+    }
+}

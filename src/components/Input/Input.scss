@@ -1,0 +1,21 @@
+.auth-in-data{
+    .auth-in{
+        width: 310px;
+        height: 35px;
+        border-radius: 10px;
+        border: 1px solid #B1B5C3;
+        color: black;
+        font-family: sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        &:focus{
+            outline-width: 0;
+        }
+    }
+    img{
+        width: 20px;
+        height: 10px;
+        position: relative;
+        right: 28px;
+    }
+}

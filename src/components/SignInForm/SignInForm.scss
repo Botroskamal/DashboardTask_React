@@ -1,0 +1,28 @@
+.signin-form{
+    width: 460px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    .input-fields{
+        display: flex;
+        flex-direction: column;
+        height: 160px;
+        justify-content: space-between;
+        padding: 20px 20px 20px 20px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+        border-radius: 10px;
+        .email-sec{
+            display: flex;
+            flex-direction: column;
+            height: 70px;
+            justify-content: space-evenly;
+        }
+        .password-sec{
+            display: flex;
+            flex-direction: column;
+            height: 70px;
+            justify-content: space-evenly;
+        }
+    }
+}

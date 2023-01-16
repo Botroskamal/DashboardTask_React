@@ -1,0 +1,40 @@
+.signup-form{
+    width: 460px;
+    height: 445px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    .input-fields{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 300px;
+        padding: 20px 20px 20px 20px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+        border-radius: 10px;
+        .first-name-sec{
+            display: flex;
+            flex-direction: column;
+            height: 70px;
+            justify-content: space-evenly;
+        }
+        .last-name-sec{
+            display: flex;
+            flex-direction: column;
+            height: 70px;
+            justify-content: space-evenly;
+        }
+        .email-sec{
+            display: flex;
+            flex-direction: column;
+            height: 70px;
+            justify-content: space-evenly;
+        }
+        .password-sec{
+            display: flex;
+            flex-direction: column;
+            height: 70px;
+            justify-content: space-evenly;
+        }
+    }
+}

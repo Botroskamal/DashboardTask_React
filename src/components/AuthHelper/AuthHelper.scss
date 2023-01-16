@@ -1,0 +1,17 @@
+.helper-sec{
+    display: flex;
+    justify-content: space-between;
+    span{
+        font-weight: 500;
+        font-size: 16px;
+        font-family: sans-serif;
+        color: #B1B5C4;
+    }
+    .link{
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        font-family: sans-serif;
+        color: #A162F7;
+    }
+}

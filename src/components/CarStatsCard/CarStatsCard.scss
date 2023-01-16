@@ -1,0 +1,54 @@
+.car-stats{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    padding: 20px;
+    width: 45%;
+    .head{
+        font-family: sans-serif;
+        .bold{
+            font-weight: 700;
+        }
+        .fair{
+            font-weight: 400;
+        }
+    }
+    .middle{
+        display: flex;
+        justify-content: space-between;
+        span{
+            color: #5F6165;
+            font-weight: 700;
+            font-family: sans-serif;
+            font-size: 14px;
+        }
+        .btns-section{
+            display: flex;
+            background-color: #F5F4F6;
+            border-radius: 24px;
+            padding-left: 2px;
+            Button{
+                border: 0 solid #F5F4F6;
+                background-color: #F5F4F6;
+            }
+            Button:focus{
+                background-color: #FF764C;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1030px) {
+    .car-stats{
+        width: 42%;
+    }
+}
+
+@media (max-width: 380px){
+    .car-stats {
+        width: 80%;
+    }
+}

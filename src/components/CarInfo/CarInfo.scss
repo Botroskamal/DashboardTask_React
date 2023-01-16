@@ -1,0 +1,193 @@
+.type-card{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 25%;
+    padding: 12px 22px;
+    border-radius: 14px;
+    .type-card-head{
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        img{
+            width: 20px;
+            height: 20px;
+        }
+        span{
+            font-weight: 700;
+            font-family: sans-serif;
+            color: #242731;
+            font-size: 14px;
+        }
+    }
+    .first-car{
+        img{
+            width: 250px;
+            height: 100%;
+        }
+    }
+    .second-car{
+        img{
+            width: 240px;
+            height: 100%;
+        }
+    }
+    .third-car{
+        img{
+            width: 210px;
+            height: 100%;
+        }
+    }
+    .car-name{
+        font-weight: 700;
+        font-family: sans-serif;
+        color: #1F2128;
+        font-size: 20px;
+    }
+    .car-specs{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .car-info{
+            display: flex;
+            align-items: center;
+            column-gap: 16px;
+            span{
+                font-weight: 500;
+                font-family: sans-serif;
+                color: #72767C;
+                font-size: 14px;
+            }
+            .trans{
+                width: 20px;
+                height: 20px;
+                padding-top: 4px;
+            }
+            .icon{
+                width: 16px;
+                height: 16px;
+                padding-top: 4px;
+            }
+            .elec{
+                width: 16px;
+                height: 16px;
+                padding-top: 4px;
+            }
+        }
+        .cost{
+            span{
+                font-weight: 500;
+                font-family: sans-serif;
+                color: #72767C;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.first-card{
+    background-color: #E1DFA4;
+}
+.second-card{
+    background-color: #E3ECF1;
+}
+.third-card{
+    background-color: #F4E3E5;
+}
+
+
+@media (max-width: 1260px) {
+    .type-card{
+        .first-car {
+            img{
+                width: 230px;
+                height: 100%;
+            }
+        }
+        .second-car {
+            img{
+                width: 220px;
+                height: 100%;
+            }
+        }
+        .third-car {
+            img{
+                width: 190px;
+                height: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 1160px) {
+    .type-card{
+        .type-card-head {
+            span {
+                font-size: 13px;
+            }
+        }
+        .first-car{
+            img{
+                width: 205px;
+                height: 100%;
+            }
+        }
+        .second-car {
+            img{
+                width: 195px;
+                height: 100%;
+            }
+        }
+        .third-car {
+            img{
+                width: 165px;
+                height: 100%;
+            }
+        }
+        .car-name{
+            font-size: 16px;
+        }
+    }
+}
+
+
+@media (max-width: 1030px) {
+    .type-card{
+        .first-car {
+            img{
+                width: 185px;
+                height: 100%;
+            }
+        }
+        .second-car {
+            img{
+                width: 175px;
+                height: 100%;
+            }
+        }
+        .third-car {
+            img{
+                width: 145px;
+                height: 100%;
+            }
+        }
+        .car-name{
+            font-size: 14px;
+        }
+    }
+}
+
+
+@media (max-width: 900px){
+    .type-card{
+        width: 37%;
+    }
+}
+
+
+@media (max-width: 380px) {
+    .type-card{
+        width: 55%;
+        margin: 10px;
+    }
+}

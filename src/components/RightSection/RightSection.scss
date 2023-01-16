@@ -1,0 +1,15 @@
+.right-section{
+    width: 82%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (max-width: 380px) {
+    .right-section{
+        width: 114%;
+        padding-left: 7px;
+        padding-right: 0px;
+    }
+}

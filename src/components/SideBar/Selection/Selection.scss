@@ -1,0 +1,43 @@
+.selection{
+    display: flex;
+    column-gap: 15px;
+    padding: 10px;
+    border-radius: 14px;
+    align-items: center;
+    img{
+        width: 20px;
+        height: 20px;
+    }
+    a{
+        text-decoration: none;
+    }
+    span{
+        font-family: sans-serif;
+        font-weight: 500;
+        font-size: 1rem;
+        color: #5F6165;
+    }
+    .logout{
+        cursor:pointer;
+    }
+
+    &:hover{
+        background-color: #F3F5F8;
+    }
+}
+
+.Dashboard, .Assets, .Booking{
+    background-color: #F3F5F8;
+}
+
+@media (max-width: 380px) {
+    .selection{
+        span{
+            font-size: 0.7rem;
+        }
+        img{
+            width: 16px;
+            height: 16px;
+        }
+    }
+}
